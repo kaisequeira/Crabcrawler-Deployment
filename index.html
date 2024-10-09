@@ -112,31 +112,6 @@
 
       document.body.appendChild(script);
 
-      var dprCompensation;
-      function updateCanvasSize() {
-        const canvas = document.getElementById('unity-canvas');
-        const scaleFactor = 0.7;
-        const aspectRatio = 16 / 9;
-        const maxWidth = scaleFactor * window.innerWidth * window.devicePixelRatio / dprCompensation;
-        const maxHeight = scaleFactor * window.innerHeight * window.devicePixelRatio / dprCompensation;
-        let newWidth, newHeight;
-
-        if (maxWidth / maxHeight > aspectRatio) {
-            newHeight = maxHeight;
-            newWidth = newHeight * aspectRatio;
-        } else {
-            newWidth = maxWidth;
-            newHeight = newWidth / aspectRatio;
-        }
-
-        canvas.style.width = newWidth + 'px';
-        canvas.style.height = newHeight + 'px';
-      }
-
-      window.addEventListener('resize', () => {updateCanvasSize();});
-      dprCompensation = window.devicePixelRatio;
-      updateCanvasSize();
-
     </script>
   </body>
 </html>
