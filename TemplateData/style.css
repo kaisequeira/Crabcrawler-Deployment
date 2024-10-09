@@ -23,3 +23,8 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
   background-size: cover;
   background-attachment: fixed;
 }
+
+/* Optional: Provide alternative focus styles for accessibility */
+#unity-canvas:focus-visible {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+  }
