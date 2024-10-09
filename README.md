@@ -59,6 +59,11 @@ For the source code and development history, please visit the [Crab Crawler Deve
 
 ![image](https://github.com/user-attachments/assets/e5265906-7d9f-4a71-9d9d-acafdada440a)
 
+### Geyser
+- Crouching in a geyser will shoot the player up the bubble spout. Be careful though, you may not know where it leads!
+
+![Geyser](https://github.com/user-attachments/assets/26917a42-f0fd-4d67-90a9-3582949cfaa6)
+
 ## Barnacles
 - Avoid barnacles in order to keep the crab safe.
 - Hitting a barnacle will deplete one life point and take the crab back to the last checkpoint.
