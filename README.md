@@ -1,6 +1,6 @@
 # Crab Crawler Deployment
 
-This repository contains the deployment files for the Crab Crawler game, a 2D platformer developed as a learning project in game development and object-oriented programming.
+This repository contains the deployment files for the Crab Crawler game, a 2D pixel art platformer containing 10 unique levels with a variety of challenges.
 
 ### 🎮 Play the Game
 
@@ -100,6 +100,13 @@ Watch out for signs, they might tell you where a predator is hiding!
 ![Turtle](https://github.com/user-attachments/assets/792f41cc-eef8-426b-81ac-85649d0be421)
 
 Remember, timing and precision are key to successfully navigating the beaches in Crab Crawler. Good luck, and enjoy your aquatic adventure!
+
+## Enemies
+If you're up for the challenge, prepare yourself for hard mode. When entering hard mode, the following will apply:
+- Flagpoles no longer give the player an additional life.
+- Lives will carry across levels. That means you only have three lives the entire run!
+- Losing all lives will reset the player back to the first level.
+- The player loses oxygen faster and will need to rehydrate more frequently.
 
 ## 🛠️ Technical Details
 
