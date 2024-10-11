@@ -101,7 +101,7 @@ Watch out for signs, they might tell you where a predator is hiding!
 
 Remember, timing and precision are key to successfully navigating the beaches in Crab Crawler. Good luck, and enjoy your aquatic adventure!
 
-## Hardmode
+## 💀 Hardmode
 If you're up for the challenge, prepare yourself for hard mode. When entering hard mode, the following will apply:
 - Flagpoles no longer give the player an additional life.
 - Lives will carry across levels. That means you only have three lives the entire run!
