@@ -18,13 +18,13 @@ For the source code and development history, please visit the [Crab Crawler Deve
 - **A** and **D** or **Left Arrow** and **Right Arrow** to move left and right
 - **W** or **Up Arrow** to jump
 - **S** or **Down Arrow** to crouch
-- **Mouse** or **Arrow Keys** to navigate menus 
+- **Arrow Keys** to navigate menus (refrain from using **Mouse** due to bugs with WebGl deployment)
 
 ### Controller:
 - **Left Joystick** to move left and right
 - **South Button** (typically X on PlayStation or A on Xbox) to jump
 - **East Button** (typically Circle on PlayStation or B on Xbox) to Crouch
-- **D-pad** to navigate menus (refrain from using joystick due to a bug with WebGl deployment)
+- **D-pad** to navigate menus (refrain from using **Joystick** due to bugs with WebGl deployment)
 
 ## Health & Oxygen
 
@@ -101,12 +101,14 @@ Watch out for signs, they might tell you where a predator is hiding!
 
 Remember, timing and precision are key to successfully navigating the beaches in Crab Crawler. Good luck, and enjoy your aquatic adventure!
 
-## 💀 Hardmode
-If you're up for the challenge, prepare yourself for hard mode. When entering hardmode, the following will apply:
+## 💀 New Plus
+If you're up for the challenge, prepare yourself for new plus mode. When entering new plus, the following will apply:
 - Flagpoles no longer give the player an additional life.
 - Lives will carry across levels. That means you only have three lives the entire run!
 - Losing all lives will reset the player back to the first level.
 - The player loses oxygen faster and will need to rehydrate more frequently.
+
+![NewPlus](https://github.com/user-attachments/assets/bd46c4d3-96ce-4dcb-8768-c71a7310427c)
 
 ## 🛠️ Technical Details
 
