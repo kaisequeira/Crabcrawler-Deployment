@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body class="custom-background">
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -15,6 +15,12 @@
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-logo-title-footer"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">CrabCrawler</div>
       </div>
     </div>
     <script>
@@ -46,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/CrabCrawler - Deployment.loader.js";
+      var loaderUrl = buildUrl + "/Crabcrawler-Deployment.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/CrabCrawler - Deployment.data",
-        frameworkUrl: buildUrl + "/CrabCrawler - Deployment.framework.js",
-        codeUrl: buildUrl + "/CrabCrawler - Deployment.wasm",
+        dataUrl: buildUrl + "/Crabcrawler-Deployment.data.br",
+        frameworkUrl: buildUrl + "/Crabcrawler-Deployment.framework.js.br",
+        codeUrl: buildUrl + "/Crabcrawler-Deployment.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PieGuyProductions",
         productName: "CrabCrawler",
@@ -105,6 +111,10 @@
           document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
               }).then((unityInstance) => {
                 document.querySelector("#unity-loading-bar").style.display = "none";
+                document.querySelector("#unity-fullscreen-button").onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+
               }).catch((message) => {
                 alert(message);
               });
