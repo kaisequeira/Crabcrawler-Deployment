@@ -114,9 +114,9 @@ If you're up for the challenge, prepare yourself for new plus mode. When enterin
 
 This deployment was created using WebGL build from Unity and is hosted on GitHub Pages. For more information on the development process or to contribute to the project, please visit the original repository.
 
-## 📝 License
+## 📄 License
 
-This project is available under the [MIT License](LICENSE).
+This project contains no licensing and, thus, is protected under the default copyright laws.
 
 ## 🤝 Contact
 
